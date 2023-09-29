@@ -1,0 +1,69 @@
+.AddMoviePage {
+    padding: 100px 0;
+}
+.AddMovieWrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 200px;
+}
+
+.root {
+    background-color: transparent !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.title {
+    color: var(--text-color) !important;
+    font-weight: 500 !important;
+    font-size: 30px !important;
+    margin-bottom: 10px !important;
+    margin-left: 15px !important;
+}
+
+.addBanner {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--text-color);
+    color: var(--accent);
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.deleteBanner {
+    padding: 10px 12px;
+    color: var(--accent);
+    border: 1px solid var(--accent);
+    border-radius: 30px;
+    margin-bottom: 5px;
+}
+
+.formMovie {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.field {
+    label {
+        color: var(--text-color) !important;
+    }
+    input {
+        border: 2px solid var(--text-color);
+        border-radius: 30px !important;
+        color: var(--text-color) !important;
+    }
+    div {
+        border: none;
+        border-radius: 30px !important;
+        color: var(--text-color) !important;
+    }
+}
+
+.buttonSubmit {
+    padding: 17px !important;
+    border-radius: 30px !important;
+    background-color: var(--accent) !important;
+    color: var(--text-color) !important;
+    font-weight: 500 !important;
+}

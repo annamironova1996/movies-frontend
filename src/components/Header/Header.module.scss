@@ -1,0 +1,81 @@
+.header {
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400;
+
+    a {
+        color: var(--text-color);
+    }
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    img {
+        width: 50px;
+    }
+}
+
+.title {
+    font-size: 30px;
+    span {
+        color: var(--accent);
+    }
+}
+
+.buttonWrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.addMovieButton {
+    padding: 12px 15px;
+    border: 1px solid var(--accent);
+    border-radius: 30px;
+}
+
+.registerBtn {
+    padding: 12px 20px;
+    border-radius: 30px;
+    border: 1px solid var(--text-color);
+}
+
+.loginBtn {
+    padding: 12px 20px;
+    border-radius: 30px;
+    background-color: var(--accent);
+}
+
+.isAuthHeader {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.wrapperButton {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.aboutMeButton {
+    img {
+        width: 30px;
+    }
+}
+
+.logoutButton {
+    padding: 15px;
+    background-color: var(--text-color);
+    border-radius: 30px;
+    color: var(--accent);
+    font-size: 20px;
+    font-weight: 500;
+}

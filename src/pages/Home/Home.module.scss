@@ -1,0 +1,69 @@
+.home {
+    padding: 50px;
+}
+
+.homeContainer {
+    width: 100%;
+}
+
+.homeWrapper {
+    display: flex;
+}
+
+.homeTitle {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.homeMovies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.homeNotAuth {
+    padding: 210px 0;
+    text-align: center;
+}
+
+.title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.titleViolet {
+    color: var(--accent);
+}
+
+.subtitle {
+    font-size: 20px;
+}
+
+.buttonWrapper {
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.buttonRegister {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid var(--accent);
+    border-radius: 30px;
+    color: var(--accent);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.buttonLogin {
+    width: 50%;
+    margin: 0 auto;
+    padding: 15px;
+    border: 1px solid var(--text-color);
+    border-radius: 30px;
+    color: var(--text-color);
+    font-size: 20px;
+    font-weight: 500;
+}
